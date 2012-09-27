@@ -2,7 +2,7 @@
 
     <string name="app_name">TobyTest</string>
 
-    <string-array name="times">
+    <string-array name="hours">
         <item>01:00</item>
         <item>02:00</item>
         <item>03:00</item>
@@ -28,12 +28,21 @@
         <item>23:00</item>
     </string-array>
     
-    <string-array name="programs">
+    <string-array name="program_titles">
         <item>烘焙王</item>
         <item>死神</item>
         <item>中視新聞全球報導</item>
         <item>傾城雪</item>
         <item>千山暮雪</item>
         <item>中視晚間新聞</item>
+    </string-array>
+
+    <string-array name="program_time_spans">
+        <item>0.5</item>
+        <item>0.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>1.5</item>
+        <item>1</item>
     </string-array>
 </resources>
