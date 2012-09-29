@@ -17,7 +17,7 @@ public class HorizontalScrollTest extends Activity {
 		
 		setContentView(R.layout.horizontal_scroll);
 		
-		// ---- Æ…ß« (start) ----
+		// ---- ÊôÇÂ∫è (start) ----
 		LinearLayout timerContainer = (LinearLayout) findViewById(R.id.time_container);
 		String[] times = getResources().getStringArray(R.array.times);
 		TextView tv;
@@ -30,9 +30,9 @@ public class HorizontalScrollTest extends Activity {
 			timerContainer.addView(tv, timeParams);
 		}
 		
-		// ---- Æ…ß« (end) ----
+		// ---- ÊôÇÂ∫è (end) ----
 		
-		// ---- ∏`•ÿ (start) ----
+		// ---- ÁØÄÁõÆ (start) ----
 		LinearLayout programContainer = (LinearLayout) findViewById(R.id.program_container);
 		String[] programs = getResources().getStringArray(R.array.programs);
 		Button btn;
@@ -40,7 +40,7 @@ public class HorizontalScrollTest extends Activity {
 		programParams.setMargins(1, 0, 1, 0);
 		for(int i=0; i<programs.length; i++){
 			btn = new Button(this);
-			btn.setBackgroundResource(R.drawable.bkg_channel);
+			btn.setBackgroundResource(R.drawable.darkknight_1);
 			btn.setText(programs[i]);
 			btn.setTextSize(24);
 			btn.setSingleLine();
@@ -49,7 +49,7 @@ public class HorizontalScrollTest extends Activity {
 			programContainer.addView(btn, programParams);
 		}
 		
-		// ---- ∏`•ÿ (end) ----
+		// ---- ÁØÄÁõÆ (end) ----
 	}
 	
 	public static int convertDipToPixel(Context c, int dp) {
