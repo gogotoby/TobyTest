@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.toby.test.scroll.SyncHorizontalScrollView
+        android:id="@+id/hsv3_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/hsv3_1_child"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </com.toby.test.scroll.SyncHorizontalScrollView>
+
+    <com.toby.test.scroll.SyncHorizontalScrollView
+        android:id="@+id/hsv3_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/hsv3_2_child"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </com.toby.test.scroll.SyncHorizontalScrollView>
+
+</LinearLayout>

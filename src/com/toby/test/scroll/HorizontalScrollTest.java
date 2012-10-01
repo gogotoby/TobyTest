@@ -1,4 +1,6 @@
-package com.toby.test;
+package com.toby.test.scroll;
+
+import com.toby.test.R;
 
 import android.app.Activity;
 import android.content.Context;
@@ -25,7 +27,7 @@ public class HorizontalScrollTest extends Activity {
 		// Supply parameters to its parent
 //		mainContainer.setLayoutParams(new FrameLayout.LayoutParams(100, 200));
 
-		// ---- ?‚å? (start) ----
+		// ---- ?ï¿½ï¿½? (start) ----
 		final LinearLayout timeContainer = (LinearLayout) findViewById(R.id.time_container);
 		ViewTreeObserver vto = timeContainer.getViewTreeObserver();
 		vto.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
@@ -50,9 +52,9 @@ public class HorizontalScrollTest extends Activity {
 			timeContainer.addView(tv, timeParams);
 		}
 
-		// ---- ?‚å? (end) ----
+		// ---- ?ï¿½ï¿½? (end) ----
 
-		// ---- ç¯?›® (start) ----
+		// ---- ï¿½?ï¿½ï¿½ (start) ----
 		LinearLayout programContainer = (LinearLayout) findViewById(R.id.program_container);
 		String[] program_title = getResources().getStringArray(R.array.program_titles);
 		String[] program_time_spans = getResources().getStringArray(R.array.program_time_spans);
@@ -61,7 +63,7 @@ public class HorizontalScrollTest extends Activity {
 		LinearLayout.LayoutParams programParams;
 		for (int i = 0; i < program_title.length; i++) {
 			btn = new Button(this);
-			btn.setBackgroundResource(R.drawable.bkg_channel);
+			btn.setBackgroundResource(R.drawable.darkknight_1);
 			btn.setText(program_title[i]);
 			btn.setTextSize(24);
 			btn.setSingleLine();

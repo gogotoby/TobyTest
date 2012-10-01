@@ -11,9 +11,19 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity android:name=".HorizontalScrollTest" >
+        <activity android:name=".scroll.HorizontalScrollTest" >
         </activity>
-        <activity android:name=".TwoDimScrollTest" >
+        <activity android:name=".scroll.HorizontalScrollTest2" >
+        </activity>
+        <activity android:name=".scroll.HorizontalScrollTest3" >
+        </activity>
+        <activity android:name=".scroll.VerticalScrollTest" >
+        </activity>
+        <activity android:name=".scroll.VerticalScrollTest3" >
+        </activity>
+        <activity android:name=".scroll.TwoDimScrollTest" >
+        </activity>
+        <activity android:name=".touch.TouchTestActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

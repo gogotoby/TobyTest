@@ -1,6 +1,7 @@
 <resources>
 
     <string name="app_name">TobyTest</string>
+    <string name="hello">Hello World, TouchTest!</string>
 
     <string-array name="hours">
         <item>01:00</item>
@@ -36,7 +37,7 @@
         <item>千山暮雪</item>
         <item>中視晚間新聞</item>
     </string-array>
-
+    
     <string-array name="program_time_spans">
         <item>0.5</item>
         <item>0.5</item>
@@ -45,4 +46,5 @@
         <item>1.5</item>
         <item>1</item>
     </string-array>
+
 </resources>
