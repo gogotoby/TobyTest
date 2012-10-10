@@ -21,11 +21,11 @@ public class TouchTestActivity extends Activity {
 
 	@Override
 	public boolean dispatchTouchEvent(MotionEvent ev) {
-		Log.i("TobyTest", "----- Activity # dispatchTouchEvent() start -----");
+		Log.i("TobyTest", "----- TouchTestActivity # dispatchTouchEvent() start -----");
 		Log.i("TobyTest", "TouchTestActivity/ dispatchTouchEvent() " + Utils.getTouchStatus(ev));
 		boolean superReturn = super.dispatchTouchEvent(ev);
 		Log.i("TobyTest", "TouchTestActivity/ dispatchTouchEvent() super return: " + superReturn);
-		Log.i("TobyTest", "----- Activity # dispatchTouchEvent() end -----");
+		Log.i("TobyTest", "----- TouchTestActivity # dispatchTouchEvent() end -----");
 		Log.i("TobyTest", " ");
 		return superReturn;
 	}

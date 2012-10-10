@@ -21,6 +21,9 @@ public class Utils {
 		case MotionEvent.ACTION_MOVE:
 			actionString = "MOVE";
 			break;
+		case MotionEvent.ACTION_CANCEL:
+			actionString = "CANCEL";
+			break;
 		default:
 			actionString = "";
 		}
