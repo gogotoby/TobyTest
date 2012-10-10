@@ -24,6 +24,12 @@
         <activity android:name=".scroll.TwoDimScrollTest" >
         </activity>
         <activity android:name=".touch.TouchTestActivity" >
+        </activity>
+        <activity android:name=".gesture.GestureTest" >
+        </activity>
+        <activity android:name=".gesture.SimpleGestureTestActivity" >
+        </activity>
+        <activity android:name=".gesture.TobyGestureTestActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
