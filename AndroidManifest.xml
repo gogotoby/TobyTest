@@ -26,15 +26,15 @@
         <activity android:name=".touch.TouchTestActivity" >
         </activity>
         <activity android:name=".gesture.GestureTest" >
-        </activity>
-        <activity android:name=".gesture.SimpleGestureTestActivity" >
-        </activity>
-        <activity android:name=".gesture.TobyGestureTestActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".gesture.SimpleGestureTestActivity" >
+        </activity>
+        <activity android:name=".gesture.TobyGestureTestActivity" >
         </activity>
     </application>
 
